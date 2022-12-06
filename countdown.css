@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;  
+    height: 30rem;
+}
+#container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: aliceblue;
+
+}
+#years,#days,#hours,#minutes,#seconds{
+    color: white;
+    height: 8.5vw;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.num{
+    font-size: 4vw;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+#txt{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+#bnt{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#bnt:hover{
+    cursor: pointer;
+    
+
+}
+#message{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
