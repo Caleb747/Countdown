@@ -56,9 +56,17 @@ body{
 }
 #bnt:hover{
     cursor: pointer;
+    color: red;
+    background-color: rgb(37, 34, 34);
+    transition: all 2s;
 }
 #message{
     font-size: 1.4em;
     text-transform: capitalize;
     text-align: center;
+}
+#message:hover{
+    background-color: black;
+    color: red;
+    transition: all 3s;
 }
