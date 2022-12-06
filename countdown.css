@@ -68,5 +68,5 @@ body{
 #message:hover{
     background-color: black;
     color: red;
-    transition: all 3s;
+    transition: all 2s;
 }
