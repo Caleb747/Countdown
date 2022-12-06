@@ -43,7 +43,7 @@ body{
     font-weight: 600;
 }
 #title{
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: capitalize;
 }
 #bnt{
@@ -56,11 +56,9 @@ body{
 }
 #bnt:hover{
     cursor: pointer;
-    
-
 }
 #message{
-    font-size: 1.2rem;
+    font-size: 1.4em;
     text-transform: capitalize;
     text-align: center;
 }
