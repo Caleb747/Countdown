@@ -12,11 +12,14 @@ body{
     align-items: center;
     flex-direction: column;
     color: aliceblue;  
-    height: 30rem;
+    height: 100vh;
 }
 #container{
+    box-sizing: border-box;
+    height: 100vh;
     display: none;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: black;
     color: aliceblue;
@@ -32,12 +35,13 @@ body{
 
 }
 .num{
-    font-size: 4vw;
+    font-size: 5vh;
     font-weight: 550;
     font-family: sans-serif;
 }
 #txt{
-    font-size: 1vw;
+    padding-top: 1em;
+    font-size: 0.6rem;
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 600;
@@ -53,6 +57,7 @@ body{
     font-size: 1rem;
     text-transform: capitalize;
     font-weight: 600;
+    border-style: dotted;
 }
 #bnt:hover{
     cursor: pointer;

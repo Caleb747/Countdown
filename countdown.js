@@ -12,13 +12,6 @@ let ho = document.getElementById("hours");
 let mi = document.getElementById("minutes");
 let se = document.getElementById("seconds");
 
-
-
-
-
-
-
-
 let years = Math.floor(Math.random() * 90);
 let days = Math.floor(Math.random() * 364);
 let hours = Math.floor(Math.random() * 23);
@@ -31,7 +24,7 @@ function calculate(){
     if (years > 0){
         seconds -= 1 
 
-        if (seconds == 0) {
+        if (seconds <= 0) {
             minutes -= 1;
             seconds = 59;
         }
@@ -62,7 +55,7 @@ function calculate(){
     
         seconds -= 1 
 
-        if (seconds == 0) {
+        if (seconds <= 0) {
             minutes -= 1;
             seconds = 59;
         }
@@ -95,7 +88,7 @@ function calculate(){
     
         seconds -= 1 
 
-        if (seconds == 0) {
+        if (seconds <= 0) {
             minutes -= 1;
             seconds = 59;
         }
@@ -128,7 +121,7 @@ function calculate(){
 
         seconds -= 1 
 
-        if (seconds == 0) {
+        if (seconds <= 0) {
             minutes -= 1;
             seconds = 59;
         }
