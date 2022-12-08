@@ -26,7 +26,8 @@ body{
 
 }
 #years,#days,#hours,#minutes,#seconds{
-    padding-top: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     color: white;
     height: 8.5vw;
     width: 25%;
